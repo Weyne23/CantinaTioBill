@@ -36,6 +36,7 @@ namespace CantinaTioBill
             this.tb_userName = new System.Windows.Forms.TextBox();
             this.tb_senha = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
+            this.btn_fechar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -104,20 +105,38 @@ namespace CantinaTioBill
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_login.Font = new System.Drawing.Font("Rubik", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_login.Location = new System.Drawing.Point(147, 181);
+            this.btn_login.Location = new System.Drawing.Point(66, 177);
             this.btn_login.Name = "btn_login";
             this.btn_login.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btn_login.Size = new System.Drawing.Size(114, 32);
+            this.btn_login.Size = new System.Drawing.Size(131, 32);
             this.btn_login.TabIndex = 6;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            // 
+            // btn_fechar
+            // 
+            this.btn_fechar.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btn_fechar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_fechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fechar.Font = new System.Drawing.Font("Rubik", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fechar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_fechar.Location = new System.Drawing.Point(222, 177);
+            this.btn_fechar.Name = "btn_fechar";
+            this.btn_fechar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_fechar.Size = new System.Drawing.Size(131, 32);
+            this.btn_fechar.TabIndex = 7;
+            this.btn_fechar.Text = "Fechar";
+            this.btn_fechar.UseVisualStyleBackColor = false;
+            this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
             // F_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Coral;
-            this.ClientSize = new System.Drawing.Size(406, 238);
+            this.ClientSize = new System.Drawing.Size(406, 228);
+            this.Controls.Add(this.btn_fechar);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.tb_senha);
             this.Controls.Add(this.tb_userName);
@@ -146,5 +165,6 @@ namespace CantinaTioBill
         private System.Windows.Forms.TextBox tb_userName;
         private System.Windows.Forms.TextBox tb_senha;
         private System.Windows.Forms.Button btn_login;
+        private System.Windows.Forms.Button btn_fechar;
     }
 }

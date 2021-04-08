@@ -13,5 +13,6 @@ namespace CantinaTioBill.Moldels
         public string UserName { get; set; }
         public string Senha { get; set; }
         public int Nivel { get; set; }
+        public string Status { get; set; }
     }
 }
