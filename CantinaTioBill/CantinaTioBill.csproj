@@ -191,5 +191,8 @@
   <ItemGroup>
     <None Include="Resources\led-circle-red.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange-close-button-png-13.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

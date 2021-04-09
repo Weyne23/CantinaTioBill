@@ -54,5 +54,11 @@ namespace CantinaTioBill
         {
             this.Close();
         }
+
+        private void btn_fecharForm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            form1.Close();
+        }
     }
 }

@@ -15,8 +15,6 @@ namespace CantinaTioBill
         public Form1()
         {
             InitializeComponent();
-            F_Login f_Login = new F_Login(this);
-            f_Login.ShowDialog();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -26,6 +24,8 @@ namespace CantinaTioBill
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            F_Login f_Login = new F_Login(this);
+            f_Login.ShowDialog();
             timer1.Start();
         }
     }

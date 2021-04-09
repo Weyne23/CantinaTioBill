@@ -37,6 +37,7 @@ namespace CantinaTioBill
             this.tb_senha = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_fechar = new System.Windows.Forms.Button();
+            this.btn_fecharForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -130,12 +131,27 @@ namespace CantinaTioBill
             this.btn_fechar.UseVisualStyleBackColor = false;
             this.btn_fechar.Click += new System.EventHandler(this.btn_fechar_Click);
             // 
+            // btn_fecharForm
+            // 
+            this.btn_fecharForm.BackgroundImage = global::CantinaTioBill.Properties.Resources.orange_close_button_png_13;
+            this.btn_fecharForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_fecharForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_fecharForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fecharForm.ForeColor = System.Drawing.Color.Coral;
+            this.btn_fecharForm.Location = new System.Drawing.Point(339, 21);
+            this.btn_fecharForm.Name = "btn_fecharForm";
+            this.btn_fecharForm.Size = new System.Drawing.Size(38, 33);
+            this.btn_fecharForm.TabIndex = 8;
+            this.btn_fecharForm.UseVisualStyleBackColor = true;
+            this.btn_fecharForm.Click += new System.EventHandler(this.btn_fecharForm_Click);
+            // 
             // F_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Coral;
             this.ClientSize = new System.Drawing.Size(406, 228);
+            this.Controls.Add(this.btn_fecharForm);
             this.Controls.Add(this.btn_fechar);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.tb_senha);
@@ -145,12 +161,12 @@ namespace CantinaTioBill
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F_Login";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,5 +182,6 @@ namespace CantinaTioBill
         private System.Windows.Forms.TextBox tb_senha;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_fechar;
+        private System.Windows.Forms.Button btn_fecharForm;
     }
 }

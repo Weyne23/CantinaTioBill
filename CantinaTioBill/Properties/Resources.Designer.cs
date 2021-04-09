@@ -79,5 +79,15 @@ namespace CantinaTioBill.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap orange_close_button_png_13 {
+            get {
+                object obj = ResourceManager.GetObject("orange-close-button-png-13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
