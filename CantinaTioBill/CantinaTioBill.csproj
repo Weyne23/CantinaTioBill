@@ -194,5 +194,14 @@
   <ItemGroup>
     <None Include="Resources\orange-close-button-png-13.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conectar_oficial-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair__1_-removebg-preview %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

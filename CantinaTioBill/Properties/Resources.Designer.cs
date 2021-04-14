@@ -63,6 +63,16 @@ namespace CantinaTioBill.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Conectar_oficial_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Conectar_oficial_removebg_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap led_circle_green {
             get {
                 object obj = ResourceManager.GetObject("led_circle_green", resourceCulture);
@@ -86,6 +96,16 @@ namespace CantinaTioBill.Properties {
         internal static System.Drawing.Bitmap orange_close_button_png_13 {
             get {
                 object obj = ResourceManager.GetObject("orange-close-button-png-13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sair__1__removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("sair__1__removebg_preview__2_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

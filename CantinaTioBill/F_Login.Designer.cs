@@ -137,10 +137,10 @@ namespace CantinaTioBill
             this.btn_fecharForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_fecharForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fecharForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fecharForm.ForeColor = System.Drawing.Color.Coral;
-            this.btn_fecharForm.Location = new System.Drawing.Point(339, 21);
+            this.btn_fecharForm.ForeColor = System.Drawing.Color.DarkSalmon;
+            this.btn_fecharForm.Location = new System.Drawing.Point(328, 21);
             this.btn_fecharForm.Name = "btn_fecharForm";
-            this.btn_fecharForm.Size = new System.Drawing.Size(38, 33);
+            this.btn_fecharForm.Size = new System.Drawing.Size(49, 42);
             this.btn_fecharForm.TabIndex = 8;
             this.btn_fecharForm.UseVisualStyleBackColor = true;
             this.btn_fecharForm.Click += new System.EventHandler(this.btn_fecharForm_Click);
@@ -149,7 +149,7 @@ namespace CantinaTioBill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Coral;
+            this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(406, 228);
             this.Controls.Add(this.btn_fecharForm);
             this.Controls.Add(this.btn_fechar);
@@ -167,6 +167,9 @@ namespace CantinaTioBill
             this.Name = "F_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.F_Login_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.F_Login_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.F_Login_MouseMove);
             this.ResumeLayout(false);
             this.PerformLayout();
 
