@@ -68,5 +68,11 @@ namespace CantinaTioBill
             mv.X = this.Left - MousePosition.X;
             mv.Y = this.Top - MousePosition.Y;
         }
+
+        private void btn_gerenciarItens_Click(object sender, EventArgs e)
+        {
+            F_gerenciarItenscs f_GerenciarItenscs = new F_gerenciarItenscs();
+            f_GerenciarItenscs.ShowDialog();
+        }
     }
 }

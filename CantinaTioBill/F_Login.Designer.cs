@@ -90,6 +90,7 @@ namespace CantinaTioBill
             this.tb_userName.Name = "tb_userName";
             this.tb_userName.Size = new System.Drawing.Size(206, 20);
             this.tb_userName.TabIndex = 4;
+            this.tb_userName.Text = "adm";
             // 
             // tb_senha
             // 
@@ -98,6 +99,7 @@ namespace CantinaTioBill
             this.tb_senha.PasswordChar = '*';
             this.tb_senha.Size = new System.Drawing.Size(206, 20);
             this.tb_senha.TabIndex = 5;
+            this.tb_senha.Text = "123";
             // 
             // btn_login
             // 

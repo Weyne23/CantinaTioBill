@@ -150,7 +150,7 @@ namespace CantinaTioBill
             this.btn_addPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_addPedidos.Font = new System.Drawing.Font("Rubik", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_addPedidos.ForeColor = System.Drawing.Color.White;
-            this.btn_addPedidos.Location = new System.Drawing.Point(322, 101);
+            this.btn_addPedidos.Location = new System.Drawing.Point(308, 101);
             this.btn_addPedidos.Name = "btn_addPedidos";
             this.btn_addPedidos.Size = new System.Drawing.Size(177, 111);
             this.btn_addPedidos.TabIndex = 5;
@@ -198,7 +198,7 @@ namespace CantinaTioBill
             this.btn_gerenciarUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_gerenciarUsuarios.Font = new System.Drawing.Font("Rubik", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_gerenciarUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btn_gerenciarUsuarios.Location = new System.Drawing.Point(322, 237);
+            this.btn_gerenciarUsuarios.Location = new System.Drawing.Point(308, 237);
             this.btn_gerenciarUsuarios.Name = "btn_gerenciarUsuarios";
             this.btn_gerenciarUsuarios.Size = new System.Drawing.Size(177, 111);
             this.btn_gerenciarUsuarios.TabIndex = 9;
@@ -245,6 +245,7 @@ namespace CantinaTioBill
             this.btn_gerenciarItens.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_gerenciarItens.UseVisualStyleBackColor = true;
             this.btn_gerenciarItens.Visible = false;
+            this.btn_gerenciarItens.Click += new System.EventHandler(this.btn_gerenciarItens_Click);
             // 
             // Form1
             // 

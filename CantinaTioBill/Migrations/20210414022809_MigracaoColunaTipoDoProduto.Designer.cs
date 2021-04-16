@@ -11,9 +11,10 @@ using System;
 namespace CantinaTioBill.Migrations
 {
     [DbContext(typeof(CantinaContexto))]
-    partial class CantinaContextoModelSnapshot : ModelSnapshot
+    [Migration("20210414022809_MigracaoColunaTipoDoProduto")]
+    partial class MigracaoColunaTipoDoProduto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

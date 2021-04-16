@@ -11,9 +11,10 @@ using System;
 namespace CantinaTioBill.Migrations
 {
     [DbContext(typeof(CantinaContexto))]
-    partial class CantinaContextoModelSnapshot : ModelSnapshot
+    [Migration("20210414014723_MigracaoTabelaProduto")]
+    partial class MigracaoTabelaProduto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,8 +31,6 @@ namespace CantinaTioBill.Migrations
                     b.Property<bool>("Status")
                         .ValueGeneratedOnAdd()
                         .HasDefaultValue(true);
-
-                    b.Property<string>("TipoProduto");
 
                     b.HasKey("ProdutoId");
 
